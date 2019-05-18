@@ -105,7 +105,7 @@ background: #7224ff;
 */
 
 .list{
-  box-shadow: 0 0 2px 1px black;
+  box-shadow: 0 0 7px 2px black;
   padding: 10px;
   margin-bottom: 15px;
 }
@@ -118,6 +118,18 @@ background: #7224ff;
   margin: 0 0 7px 0;
 }
 
+@media(max-width: 1060px ){
+  #content-wrap {
+    margin: 0 15px;
+
+  }
+
+  header ul li, #logo{
+    width: 100%;
+    text-align: center;
+  }
+  
+}
 
     @media(max-width: 600px ){
       header ul{
@@ -130,4 +142,4 @@ background: #7224ff;
         text-align: center;
       }
       
-    
+    }
