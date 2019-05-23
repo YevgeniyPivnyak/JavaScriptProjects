@@ -118,6 +118,21 @@ background: #7224ff;
   margin: 0 0 7px 0;
 }
 
+footer {
+  background: #043b92;
+
+  text-align: center;
+  padding: 15px;
+
+}
+
+footer a{
+  color: #ffff;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
 @media(max-width: 1060px ){
   #content-wrap {
     margin: 0 15px;
